@@ -1,20 +1,13 @@
-#include <gtest/gtest.h>
-#include <src/main.cpp>
-
-#include <sstream>
+#include <iostream>
 #include <string>
+#include <sstream>
+#include <gtest/gtest.h>
 
-int get_input();
+#include "myUtils.h"
 
-void set_stdin(const std::string& input) 
+TEST(unit_tests, test_convTen2Two)
 {
-    std::istringstream* iss = new std::istringstream(input);
-    std::cin.rdbuf(iss->rdbuf());
-}
-
-TEST(main_test, get_input_test_valid)
-{
-    std::string result = convTenTo2(255);
+    std::string result = convTen2Two(255);
     std::string expected = "11111111";
-    EXPECT_EQ(result, expected) << "== Incorrect Conversion of 255 to Binary =="
+    EXPECT_EQ(result, expected) << "== Incorrect Conversion of 255 to Binary ==";
 }
