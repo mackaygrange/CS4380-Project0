@@ -1,9 +1,6 @@
 #include <myUtils.h>
 
 std::string convTen2Two(unsigned int baseTenValue)
-{
-    std::string output;
-    int r;
 
     if (baseTenValue == 0)
     {
@@ -23,7 +20,7 @@ std::string convTen2Two(unsigned int baseTenValue)
 int get_input()
 {
     int input;
-
+  
     // Prompt for Input:
     std::cout << "Enter a non-negative base 10 integer between 0 and 4294967295 (with no commas) and hit Enter/Return:" << std::endl;
     std::cin >> input;
@@ -38,3 +35,4 @@ int get_input()
     // Return Validated Input:
     return input;
 }
+
