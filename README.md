@@ -2,13 +2,16 @@
 <div>
   <pre>
     <br>
+    **** INVOKING THE NON-LATE POLICY ****
+    NOTE: Last minute I thought everything was working as intended however my gtest decided to break for some reason even though my CMake setup was working just fine the other day. 
+    I am working on trouble shooting it right now but wasn't able to resolve it before going to bed. 
     ==== Work Log ====
     01/06/2025 - Monday - 2 hours: Prepared enviornment and began working on the necessary functions, setting up gtest and cmake.
     01/08/2025 - Wednesday - 2 hours: Set up github repository to track my local git repo. Configured part 1's branch.
     01/09/2025 - Friday - 3 hours: Spent some time debugging stupid issues with gtest and cmake. Unbungled some git issues I created for myself.
     01/11/2025 - Sunday - 2 hours: Started refactoring for part 2 changes, fixed stupid issues caused by me forgetting how to manage CMake inclusions and implementing it wrong.
     01/12/2025 - Monday - 1 hour: Spent some time checking previous branches to ensure that qualifiations are followed stricly when stipulated in the requirements.
-    01/13/2025 - Tuesday - 3 hours: Fumbled through some more git headaches and polished part 2 branch changes, finished part 3 pretty quickly due to already having set up CMake and gtest at the start.
+    01/13/2025 - Tuesday - 4 hours: Fumbled through some more git headaches and polished part 2 branch changes, finished part 3 pretty quickly due to already having set up CMake and gtest at the start.
     <br>
     ==== Commentary - Part 1 ====
     For the first part of the assignment I quickly got myself in trouble by not strictly following the provided requirements, 
