@@ -10,7 +10,7 @@ INCLUDE_DIR := include
 
 # Target executable
 TARGET := b10tob2
-EXECUTABLE := $(BUILD_DIR)/$(TARGET).exe
+EXECUTABLE := $(BUILD_DIR)/$(TARGET)
 
 # Collect all source files
 SRC_FILES := $(wildcard $(SRC_DIR)/*.cpp)
