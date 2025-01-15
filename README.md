@@ -5,6 +5,7 @@
     **** INVOKING THE NON-LATE POLICY ****
     NOTE: Last minute I thought everything was working as intended however my gtest decided to break for some reason even though my CMake setup was working just fine the other day. 
     I am working on trouble shooting it right now but wasn't able to resolve it before going to bed. 
+    <br>
     ==== Work Log ====
     01/06/2025 - Monday - 2 hours: Prepared enviornment and began working on the necessary functions, setting up gtest and cmake.
     01/08/2025 - Wednesday - 2 hours: Set up github repository to track my local git repo. Configured part 1's branch.
