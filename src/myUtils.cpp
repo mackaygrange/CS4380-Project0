@@ -1,6 +1,9 @@
 #include <myUtils.h>
 
 std::string convTen2Two(unsigned int baseTenValue)
+{
+    std::string output;
+    int r;
 
     if (baseTenValue == 0)
     {
